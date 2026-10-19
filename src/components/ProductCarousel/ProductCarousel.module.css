@@ -1,0 +1,142 @@
+.products {
+  display: flex;
+  gap: 9px;
+  padding: 0 16px 0 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.products::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  height: 379px;
+  width: 240px;
+  scroll-snap-align: start;
+  text-align: left;
+}
+
+.imageWrap {
+  position: relative;
+  height: 303px;
+  background: #f8f8f8;
+}
+
+.productImage {
+  display: block;
+  width: 240px;
+  height: 303px;
+  object-fit: cover;
+}
+
+.favorite,
+.quickView {
+  position: absolute;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.favorite {
+  top: 12px;
+  right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.favorite .icon {
+  color: var(--preto);
+}
+
+.favorite[aria-pressed='true'] .icon {
+  fill: var(--preto);
+}
+
+.quickView .icon {
+  width: 15px;
+  height: 15px;
+}
+
+.quickView {
+  right: 12px;
+  bottom: 12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #FFFFFFCC;
+  color: var(--neutral-600);
+}
+
+.badge {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 7px 12px;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  letter-spacing: 10%;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  background: #0A0A0A1A;
+  color: var(--preto);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 12px 8px 0;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.card strong {
+  display: block;
+  margin: 2px 8px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+}
+
+.card p {
+  margin: 0 8px;
+  color: var(--neutral-500);
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+
+.progress {
+  position: relative;
+  width: 215px;
+  height: 1px;
+  margin: 25px auto 0;
+  background: var(--neutral-400);
+}
+
+.progress span {
+  position: absolute;
+  top: 0;
+  height: 1px;
+  background: var(--preto);
+  transition: left 180ms ease;
+}

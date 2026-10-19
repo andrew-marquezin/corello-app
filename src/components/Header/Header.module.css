@@ -1,0 +1,105 @@
+.header {
+  position: relative;
+  z-index: 10;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 62px;
+  padding: 4px 12px;
+  background-color: var(--preto);
+  color: var(--off-white);
+  box-sizing: border-box;
+}
+
+.bannerIcon :global(.icon) {
+  width: 20px;
+  height: 20px;
+  color: var(--off-white);
+}
+
+.bannerText {
+  color: var(--neutral-100);
+}
+
+.bannerLabel,
+.bannerMessage {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.bannerLabel {
+  font-family: var(--font-brazilia-three), serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: underline;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.bannerMessage {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 10px;
+}
+
+.highlight {
+  font-weight: 500;
+}
+
+.nav {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 343px;
+  height: 24px;
+  padding: 20px 16px;
+  color: var(--off-white);
+}
+
+.cluster {
+  display: flex;
+  align-items: center;
+  width: 70px;
+  height: 24px;
+  gap: 8px;
+}
+
+.clusterEnd {
+  justify-content: flex-end;
+}
+
+.iconButton {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  appearance: none;
+  cursor: pointer;
+}
+
+.logo {
+  display: block;
+  width: 147px;
+  height: 20px;
+  color: inherit;
+}
+
+.logo svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}

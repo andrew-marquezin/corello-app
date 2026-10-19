@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="menu-icon" viewBox="0 0 28 24">
+        <path stroke="currentColor" stroke-miterlimit="10" d="M6.653 7.034h13.704M6.653 11.993h13.704M6.653 16.952h13.704"/>
+    </symbol>
+    <symbol id="search-icon" viewBox="0 0 24 24">
+        <path stroke="currentColor" fill="none" stroke-miterlimit="10" d="M11.014 14.511c-2.12.528-4.302-.404-5.36-2.241-1.188-2.07-.75-4.942 1.244-6.41 2.091-1.54 5.092-.935 6.521 1.202 1.258 1.879 1.086 4.69-.558 6.41C14.595 15.367 16.266 17.102 18 19"/>
+    </symbol>
+    <symbol id="camera-icon" viewBox="0 0 24 24">
+        <path stroke="currentColor" fill="none" stroke-miterlimit="10" d="M10.934 3.5h2.136c1.942 0 3.503 1.548 3.503 3.44v1.363h2.424l.18.005C21.036 8.4 22.5 9.91 22.5 11.743v5.317c0 1.892-1.561 3.44-3.503 3.44H5.003C3.06 20.5 1.5 18.952 1.5 17.06v-5.317c0-1.892 1.561-3.44 3.503-3.44H7.43V6.94c0-1.892 1.562-3.44 3.504-3.44Z"/>
+        <path stroke="currentColor" fill="none" stroke-miterlimit="10" stroke-width=".8" d="M12 9.4a4.6 4.6 0 1 1 0 9.2 4.6 4.6 0 0 1 0-9.2Z"/>
+        <path stroke="currentColor" fill="none" stroke-miterlimit="10" stroke-width=".8" d="M12 10.641a3.359 3.359 0 1 1 0 6.718 3.359 3.359 0 0 1 0-6.718Z"/>
+    </symbol>
+    <symbol id="favorite-icon" viewBox="0 0 24 24">
+        <path stroke="currentColor" fill="none" stroke-miterlimit="10" d="M11.797 6.956c1.406-2.027 4.114-2.508 5.938-1.265 1.564 1.064 2.544 2.984 1.491 5.166s-7.22 8.012-7.22 8.012-6.371-5.315-7.43-7.381-.596-4.416.886-5.653C7.23 4.36 10.21 4.905 11.8 6.956z"/>
+    </symbol>
+    <symbol id="bag-icon" viewBox="0 0 24 24">
+        <path stroke="currentColor" fill="none" stroke-miterlimit="10" d="M16.59 8.687H7.583a.85.85 0 0 0-.634.239c-.243.23-.314.531-.33.622l-.603 8.204c-.01.057-.086.571.212.935.14.174.305.24.393.265L17.276 19c.04 0 .4-.017.602-.372a1 1 0 0 0 .122-.492l-.522-8.54a1.14 1.14 0 0 0-.2-.576.81.81 0 0 0-.683-.336z"/>
+        <path stroke="currentColor" fill="none" stroke-miterlimit="10" d="M10.003 12s-.02-2.986.05-4.108c.195-1.029 1.091-1.922 2.019-1.891.913.03 1.948 1.057 1.926 1.981-.02.927.01 2.748 0 4.018"/>
+    </symbol>
+    <symbol id="truck-icon" viewBox="0 0 20 20">
+        <g stroke="currentColor" fill="none" stroke-linecap="round" stroke-width="1.5">
+            <path stroke-linejoin="round" stroke-miterlimit="1.5" d="M6.667 15.833a1.667 1.667 0 1 0 0-3.333 1.667 1.667 0 0 0 0 3.333M15 15.833a1.667 1.667 0 1 0 0-3.333 1.667 1.667 0 0 0 0 3.333"/>
+            <path d="M8.375 14.167H12.5V5.5A.5.5 0 0 0 12 5H.833M4.708 14.167H3a.5.5 0 0 1-.5-.5V9.583"/>
+            <path stroke-linejoin="round" d="M1.667 7.5H5"/>
+            <path d="M12.5 7.5h4.675a.5.5 0 0 1 .457.297l1.492 3.356a.5.5 0 0 1 .043.203v2.31a.5.5 0 0 1-.5.5h-1.584M12.5 14.167h.833"/>
+        </g>
+    </symbol>
+    <symbol id="left-arrow" viewBox="0 0 15 21">
+        <path stroke="currentColor" fill="none" stroke-miterlimit="10" d="M13.338.393.811 10.278l13 10.114"/>
+    </symbol>
+    <symbol id="right-arrow" viewBox="0 0 15 21">
+        <path stroke="currentColor" fill="none" stroke-miterlimit="10" d="m.78 20.395 12.527-9.886L.307.395"/>
+    </symbol>
+    <symbol id="up-arrow" viewBox="0 0 21 15">
+        <path stroke="currentColor" fill="none" stroke-miterlimit="10" d="M20.395 13.338 10.509.811l-10.114 13"/>
+    </symbol>
+    <symbol id="heart-icon" viewBox="0 0 20 18">
+        <path stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.75 5.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733C9.035 1.876 7.373.75 5.437.75 2.85.75.75 2.765.75 5.25c0 7.22 9 12 9 12s9-4.78 9-12"/>
+    </symbol>
+    <symbol id="alt-camera-icon" viewBox="0 0 16 16">
+        <mask id="a" width="16" height="16" x="0" y="0" fill="#000" maskUnits="userSpaceOnUse">
+            <path fill="#fff" d="M0 0h16v16H0z"/>
+            <path d="M14.627 1H1.373A.373.373 0 0 0 1 1.373v13.254c0 .206.167.373.373.373h13.254a.373.373 0 0 0 .373-.373V1.373A.373.373 0 0 0 14.627 1"/>
+        </mask>
+        <path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" d="M1.373 1h13.254c.206 0 .373.167.373.373v13.254a.373.373 0 0 1-.373.373H1.373A.373.373 0 0 1 1 14.627V1.373C1 1.167 1.167 1 1.373 1Z" mask="url(#a)"/>
+        <mask id="b" fill="#fff">
+            <path d="M8 11.154a3.153 3.153 0 1 0 0-6.307 3.153 3.153 0 0 0 0 6.306"/>
+        </mask>
+        <path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" d="M11.153 8a3.153 3.153 0 1 1-6.306 0 3.153 3.153 0 0 1 6.306 0Z" mask="url(#b)"/>
+        <mask id="c" fill="#fff">
+            <path d="M12.288 4.374a.967.967 0 1 0 0-1.934.967.967 0 0 0 0 1.934"/>
+        </mask>
+        <path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" d="M13.256 3.407a.967.967 0 1 1-1.935 0 .967.967 0 0 1 1.935 0Z" mask="url(#c)"/>
+    </symbol>
+    <symbol id="plus-icon" viewBox="0 0 15 15">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".96" d="M3.042 7.3h8.516M7.3 3.042v8.516"/>
+    </symbol>
+    <symbol id="diagonal-arrow" viewBox="0 0 12 12">
+        <path fill="currentColor" d="M11.453 0H.547a.548.548 0 0 0 .001 1.096h9.585l-9.97 9.97a.545.545 0 1 0 .771.772l9.97-9.971v9.586a.548.548 0 0 0 1.096 0V.546A.55.55 0 0 0 11.453 0"/>
+    </symbol>
+    <symbol id="facebook" fill="none" viewBox="0 0 30 24">
+        <path stroke="currentColor" stroke-miterlimit="10" d="M8.416 4.974H21.65c.2 0 .363.163.363.365v13.334a.364.364 0 0 1-.363.365H8.416a.364.364 0 0 1-.363-.365V5.339c0-.202.162-.365.363-.365Z"/>
+        <path stroke="currentColor" stroke-miterlimit="10" d="M17.667 9.13s-.155-1.218-1.519-1.288c-1.334-.067-2.012.774-2.012 1.356l.016 9.783M16.339 11.758h-3.94"/>
+    </symbol>
+    <symbol id="instagram" fill="none" viewBox="0 0 30 24">
+        <path stroke="currentColor" stroke-miterlimit="10" d="M8.718 5.354h12.893c.2 0 .363.164.363.366v12.99a.364.364 0 0 1-.363.365H8.718a.364.364 0 0 1-.363-.366V5.72c0-.202.163-.366.363-.366Z"/>
+        <path stroke="currentColor" stroke-miterlimit="10" d="M18.232 12.215c0 1.707-1.373 3.09-3.067 3.09s-3.068-1.383-3.068-3.09 1.374-3.09 3.068-3.09 3.067 1.383 3.067 3.09ZM20.277 7.713a.944.944 0 0 1-.94.948.944.944 0 0 1-.941-.948c0-.523.42-.947.94-.947s.941.424.941.947Z"/>
+    </symbol>
+    <symbol id="youtube" fill="none" viewBox="0 0 30 24">
+        <path stroke="currentColor" stroke-miterlimit="10" d="M8.988 4.961h12.091c2.053 0 3.718 1.677 3.718 3.746v6.601c0 2.069-1.665 3.746-3.718 3.746H8.988c-2.054 0-3.718-1.677-3.718-3.746V8.707c0-2.069 1.664-3.746 3.718-3.746Z"/>
+        <path stroke="currentColor" stroke-miterlimit="10" d="m13.429 8.911.072 6.458 4.816-3.249z"/>
+    </symbol>
+    <symbol id="pinterest" fill="none" viewBox="0 0 24 24">
+        <g clip-path="url(#a)">
+            <mask id="b" fill="#fff">
+                <path d="M12.003 23.713c6.469 0 11.714-5.244 11.714-11.713S18.472.287 12.003.287.287 5.531.287 12s5.245 11.713 11.715 11.713"/>
+            </mask>
+            <path stroke="currentColor" stroke-miterlimit="10" stroke-width="2" d="M23.717 12c0 6.469-5.245 11.713-11.714 11.713S.287 18.469.287 12 5.533.287 12.003.287 23.717 5.531 23.717 12Z" mask="url(#b)"/>
+            <path stroke="currentColor" stroke-miterlimit="10" d="M6.786 15.37a6.03 6.03 0 0 1-.942-6.418C7.175 5.98 10.45 5.486 11.25 5.41a7.2 7.2 0 0 1 2.479.197c.187.055 3.213.977 4.13 3.647 1.006 2.922-.846 7.008-3.619 7.345-1.628.2-3.422-.913-4.249-2.364m0 0a3.6 3.6 0 0 1-.38-.945c-.365-1.532.47-3.003.652-3.114.233-.146.233-.166.47 0 .557.383-.106 2.096-.344 2.801-.115.341-.248.754-.398 1.258Zm0 0c-.492 1.664-1.155 4.326-1.904 8.717"/>
+        </g>
+        <defs>
+            <clipPath id="a">
+                <path fill="#fff" d="M0 0h24v24H0z"/>
+            </clipPath>
+        </defs>
+    </symbol>
+    <symbol id="tiktok" fill="none" viewBox="0 0 19 24">
+        <g clip-path="url(#a)">
+            <mask id="b" fill="#fff">
+                <path d="M7.571 9.137 7.525 14.1c-.942.176-1.695.853-1.905 1.73-.016.06-.292 1.304.65 2.142.041.035.984.842 2.141.456.99-.331 1.317-1.259 1.348-1.364l.046-16.8 4.559-.044a2.98 2.98 0 0 0 1.537 2.688c1.383.767 2.776.1 2.884.045v4.914a7 7 0 0 1-1.721.135 7.1 7.1 0 0 1-1.86-.32c0 .962.015 2.396.046 4.142.062 3.45.123 3.72 0 4.553-.194 1.319-.573 3.886-2.746 5.691-.286.236-2.453 1.981-5.394 1.685-3.432-.35-7.069-3.385-6.885-7.602.17-3.821 3.397-6.925 7.346-7.01z"/>
+            </mask>
+            <path stroke="currentColor" stroke-miterlimit="10" stroke-width="2" d="M7.571 9.137 7.525 14.1c-.942.176-1.695.853-1.905 1.73-.016.06-.292 1.304.65 2.142.041.035.984.842 2.141.456.99-.331 1.317-1.259 1.348-1.364l.046-16.8 4.559-.044a2.98 2.98 0 0 0 1.537 2.688c1.383.767 2.776.1 2.884.045v4.914a7 7 0 0 1-1.721.135 7.1 7.1 0 0 1-1.86-.32c0 .962.015 2.396.046 4.142.062 3.45.123 3.72 0 4.553-.194 1.319-.573 3.886-2.746 5.691-.286.236-2.453 1.981-5.394 1.685-3.432-.35-7.069-3.385-6.885-7.602.17-3.821 3.397-6.925 7.346-7.01z" mask="url(#b)"/>
+        </g>
+        <defs>
+            <clipPath id="a">
+                <path fill="#fff" d="M0 0h19v24H0z"/>
+            </clipPath>
+        </defs>
+    </symbol>
+</svg>
